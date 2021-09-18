@@ -1,0 +1,40 @@
+.d-sec1{
+    display: flex; 
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 9%);
+    border: .5px solid #ddd;
+}
+
+.input-groups-first-main,.input-groups-second-main{
+    padding-top: 1.5rem;
+}
+
+.input-group{
+    flex-direction: column;
+}
+
+.input-group input,.input-group select,.input-group select:focus-visible{
+    border-radius: 5px;
+    border:.5px solid #d1d1d1;
+    height: 2.5rem;
+}
+
+.input-group input::placeholder,.input-group select{
+    padding: .5rem;
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+}
+
+.input-group option{
+    font-size: 1.2rem;
+}
+
+.input-group label{
+    display: grid;
+    color:#004f94;
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+    justify-content: start;
+}

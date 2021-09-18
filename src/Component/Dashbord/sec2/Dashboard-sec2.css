@@ -1,0 +1,69 @@
+.d-sec2{
+    display: flex; 
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 9%);
+    border: .5px solid #ddd;
+}
+
+
+.accordion-item:nth-child(even) {
+    background-color: #eef8f7;
+    border-right: 5px solid #eef8f7;
+    
+  }
+  .accordion-item:nth-child(odd) {
+    background-color: #f0f0f0;
+    border-right: 5px solid #f0f0f0;
+  }
+
+  .bazer{
+    border-right: 5px solid red;
+  }
+
+  .acc-item{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+.acc-item input{
+    height: 2rem;
+    border: none;
+    background-color: #D1D1D1;
+}
+.acc-item i{
+    padding: 0.5rem;
+}
+  .accordion-header{
+      padding: .75rem 0;
+  }
+
+  .acc-body-title{
+      padding: 0 1.5rem;
+      background-color: #5BCFC5;
+  }
+
+  .accordion-body{
+    padding:0;
+  }
+
+  .acc-body-body{
+      background-color: #fff;
+      padding:.5rem 0 .5rem 0;
+      border-bottom: 1px solid #ddd;
+  }
+
+  .acc-body-title{
+      font-size: .8rem;
+  }
+
+  .khariat{
+    display: none;
+  }
+
+  input:focus-visible +.khariat{
+display: block;
+  }
+
